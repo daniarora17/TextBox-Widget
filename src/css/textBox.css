@@ -1,0 +1,55 @@
+
+body {
+	margin: auto;
+	padding: auto;
+	width: 500px;
+	min-height: 500px;
+}
+.wysiwyg-toolbar {
+	user-select: none;
+
+}
+
+div[contenteditable] {
+	min-height: 100px;
+	border: 1px solid red;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icon-bold:after {
+	content: "B";
+}
+.icon-italic:after {
+	content: "I";
+}
+.icon-underline:after {
+	content: "U";
+}
+.icon-undo:after {
+	content: "undo";
+}
+.icon-redo:after {
+	content: "redo";
+}
+.icon-left:after {
+	content: "left";
+}
+.icon-center:after {
+	content: "center";
+}
+.icon-right:after {
+	content: "right";
+}
+.icon-justify:after {
+	content: "justify";
+}
+.icon-indent:after {
+	content: "indent";
+}
+.icon-outdent:after {
+	content: "outdent";
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			TextBox-Widget-POC
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/textBox.css" />
+	</head>
+
+	<body ng-app = "textBoxApp" ng-controller = "testCtrl">
+		<p>Message</p>
+		<text-box ng-model="widgetText"></text-box>
+		<div ng-bind="widgetText"></div>
+		<textarea ng-model="widgetText"></textarea>
+		<script src="../node_modules/angular/angular.js"></script>
+		<script src="js/wysiwyg.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/service/textbox-service.js"></script>
+		<script src="js/controllers/TestCtrl.js"></script>
+		<script src="js/directive/text-box-directive.js"></script>
+	</body>
+</html>
