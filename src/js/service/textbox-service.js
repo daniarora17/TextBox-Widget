@@ -14,10 +14,10 @@ app.service('textBoxWidgetService',function(){
 				wysiwygeditor.underline();
 				break;
 			case 'undo':
-				wysiwygeditor.undo();
+				document.execCommand( 'undo' );
 				break;
 			case 'redo':
-				wysiwygeditor.redo();
+				document.execCommand( 'redo' );
 				break;
 			case 'alignLeft':
 				wysiwygeditor.align('left');

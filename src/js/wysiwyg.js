@@ -1355,18 +1355,6 @@
                 callUpdates();
                 return this;
             },
-             undo: function()
-            {
-                execCommand( 'undo' );
-                callUpdates();
-                return this;
-            },
-             redo: function()
-            {
-                execCommand( 'redo' );
-                callUpdates();
-                return this;
-            },
             strikethrough: function()
             {
                 execCommand( 'strikeThrough' );
